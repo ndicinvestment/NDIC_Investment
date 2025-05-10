@@ -1,0 +1,122 @@
+/*# Blog Posts 2 Section
+--------------------------------------------------------------*/
+.blog-posts-2 article {
+  background-color: var(--surface-color);
+  box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.blog-posts-2 .post-img img {
+  transition: 0.5s;
+}
+
+.blog-posts-2 .post-content {
+  padding: 30px;
+}
+
+.blog-posts-2 .post-title {
+  font-size: 20px;
+  line-height: 24px;
+  color: var(--heading-color);
+  font-weight: 600;
+  transition: 0.3s;
+  margin-bottom: 20px;
+}
+
+.blog-posts-2 .meta {
+  position: relative;
+  margin-top: -20px;
+  padding: 0 30px;
+}
+
+.blog-posts-2 .meta i {
+  font-size: 16px;
+  color: var(--accent-color);
+}
+
+.blog-posts-2 .meta span {
+  font-size: 15px;
+  color: color-mix(in srgb, var(--default-color), transparent 40%);
+}
+
+.blog-posts-2 .meta .post-date {
+  background-color: var(--accent-color);
+  color: var(--contrast-color);
+  font-size: 13px;
+  padding: 6px 12px;
+  text-align: center;
+  margin-right: 15px;
+  border-radius: 4px;
+}
+
+.blog-posts-2 .meta .post-date span {
+  display: block;
+  color: var(--contrast-color);
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.blog-posts-2 .readmore {
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  line-height: 1;
+  transition: 0.3s;
+  color: color-mix(in srgb, var(--heading-color), transparent 20%);
+}
+
+.blog-posts-2 .readmore i {
+  line-height: 0;
+  margin-left: 6px;
+  font-size: 16px;
+}
+
+.blog-posts-2 article:hover .post-title,
+.blog-posts-2 article:hover .readmore {
+  color: var(--accent-color);
+}
+
+.blog-posts-2 article:hover .post-img img {
+  transform: scale(1.1);
+}
+
+/*--------------------------------------------------------------
+# Blog Pagination Section
+--------------------------------------------------------------*/
+.blog-pagination {
+  padding-top: 0;
+  color: color-mix(in srgb, var(--default-color), transparent 40%);
+}
+
+.blog-pagination ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.blog-pagination li {
+  margin: 0 5px;
+  transition: 0.3s;
+}
+
+.blog-pagination li a {
+  color: color-mix(in srgb, var(--default-color), transparent 40%);
+  padding: 7px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blog-pagination li a.active,
+.blog-pagination li a:hover {
+  background: var(--accent-color);
+  color: var(--contrast-color);
+}
+
+.blog-pagination li a.active a,
+.blog-pagination li a:hover a {
+  color: var(--contrast-color);
+}

@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Service Details - Day Bootstrap Template</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+<link rel="stylesheet" href="/assets/css/investment-details.css">
+
+  <!-- =======================================================
+  * Template Name: Day
+  * Template URL: https://bootstrapmade.com/day-multipurpose-html-template-for-free/
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="service-details-page">
+
+  <header id="header" class="header sticky-top">
+
+    <div class="topbar d-flex align-items-center">
+      <div class="container d-flex justify-content-center justify-content-md-between">
+        <div class="contact-info d-flex align-items-center">
+          <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:ndicinvestment@gmail.com">ndicinvestment@gmail.com</a></i>
+          <i class="bi bi-phone d-flex align-items-center ms-4"><span>+9779849779958</span></i>
+        </div>
+        <div class="social-links d-none d-md-flex align-items-center">
+          <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
+          <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+        </div>
+      </div>
+    </div><!-- End Top Bar -->
+
+    <div class="branding d-flex align-items-center">
+
+      <div class="container position-relative d-flex align-items-center justify-content-between">
+        <a href="index.html" class="logo d-flex align-items-center">
+          <!-- Uncomment the line below if you also wish to use an image logo -->
+          <!-- <img src="assets/img/logo.png" alt=""> -->
+          <h1 class="sitename">NDIC</h1>
+        </a>
+
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li class="dropdown"><a href="/about.html"><span>About</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul>
+                <li><a href="./about.html">Overview</a></li>
+                <li><a href="/team.html">Team</a></li>
+                </ul>
+                </li>
+                <li><a href="./investment.html">Investments</a></li>
+            <li><a href="./portfolio.html">Portfolio</a></li>
+            <li><a href="/news&media.html">News&Media</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
+      </div>
+
+    </div>
+
+  </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title dark-background" data-aos="fade">
+      <div class="container">
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li class="current">Investment</li>
+          </ol>
+        </nav>
+        <h1>Investment Details</h1>
+      </div>
+    </div><!-- End Page Title -->
+ <!-- Investment Details Section -->
+ 
+<!-- Investment Details Section -->
+<section id="portfolio-details" class="portfolio-details section">
+  <div class="container" data-aos="fade-up">
+    <!-- Portfolio Image -->
+    <div class="portfolio-details-image">
+      <img id="investment-image" src="assets/img/portfolio/app-1.jpg" alt="Portfolio Image" style="width: 95%; height: auto;">
+    </div>
+
+    <!-- Full-width Content -->
+    <div class="row gy-4 mt-4">
+      <div class="col-lg-12" data-aos="fade-up">
+        <div class="portfolio-description">
+          <h2 id="investment-title">This is an example of portfolio details</h2>
+          <div id="investment-content">
+            <p>Default content for the investment area will be shown here if no specific area is selected.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- AOS JS for animations -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script>
+  AOS.init();
+
+  // Function to get the query parameter value
+  function getQueryParam(param) {
+    const urlParams = new URLSearchParams(window.location.search);
+    return urlParams.get(param);
+  }
+
+  const investmentAreas = {
+  'real-estate': {
+    title: 'Invest in Real Estate',
+    image: 'assets/img/real estate.jpg',
+    content: `
+      <p style="line-height: 1.8;">Real estate has long been a cornerstone of wealth creation, providing investors with a steady stream of passive income, while also offering substantial long-term appreciation. By investing in real estate, you are gaining access to a tangible asset that serves as a hedge against inflation and economic fluctuations. Whether through rental properties, commercial spaces, or land development, real estate offers stability in a world where markets can be volatile. 
+
+      Over the past decade, urbanization has driven demand for housing, offices, and mixed-use developments, creating a robust pipeline of projects and opportunities for investors. Governments around the world are also increasingly supporting real estate initiatives through tax incentives and infrastructure developments, further fueling growth in this sector. 
+
+      From flipping properties for short-term gains to acquiring land for long-term appreciation, real estate provides diverse investment avenues tailored to various risk appetites. As populations grow and cities expand, investing in real estate ensures you are positioned to capitalize on the growing need for housing, commercial spaces, and innovative development projects that shape the future.</p>
+    `
+  },
+  'housing-projects': {
+    title: 'Invest in Housing Projects',
+    image: 'assets/img/housing.jpg',
+    content: `
+      <p style="line-height: 1.8;">Housing projects are at the heart of human progress, offering investors not only financial rewards but also the chance to make a lasting impact on society. As cities grow and the need for affordable and sustainable housing rises, investing in housing projects becomes more than just a profit-driven endeavor. It's about contributing to the development of communities and ensuring that people have access to safe, reliable, and affordable homes. 
+
+      With populations steadily increasing, particularly in urban centers, the demand for housing is growing at an unprecedented rate. Governments and developers are focusing on affordable housing, luxury residential complexes, and sustainable building practices, providing a broad spectrum of investment opportunities. These initiatives often benefit from favorable policies, tax incentives, and partnerships with governmental bodies, making housing investments both financially sound and socially responsible.
+
+      Whether you’re looking at high-end residential developments or affordable housing projects, this sector promises stable returns and long-term growth. The need for housing isn’t going away—it’s only increasing. Investing in housing projects allows you to tap into this essential market, creating value for both investors and communities alike.</p>
+    `
+  },
+  'tourism-development': {
+    title: 'Invest in Tourism Development',
+    image: 'assets/img/tourism.jpg',
+    content: `
+      <p style="line-height: 1.8;">Tourism development is a dynamic and exciting investment opportunity, particularly as global travel surges post-pandemic. This sector includes everything from luxury hotels and resorts to eco-tourism ventures and unique travel experiences, making it an appealing choice for investors seeking both profit and impact. Tourism-related investments not only offer strong financial returns but also play a crucial role in preserving cultural heritage and supporting local economies. 
+
+      The tourism industry has shown remarkable resilience, recovering quickly even after global disruptions. As people seek more immersive and meaningful travel experiences, investments in hospitality, leisure, and tourism infrastructure are positioned for long-term growth. Global trends such as wellness tourism, adventure travel, and sustainable tourism have created new avenues for profitability within this thriving sector. 
+
+      By investing in tourism development, you can benefit from the steady rise in global travel demand while also contributing to the preservation of natural environments and local cultures. Tourism development offers a rewarding combination of financial returns and social good, making it one of the most compelling investment areas today.</p>
+    `
+  },
+  'agribusiness': {
+    title: 'Invest in AgriBusiness',
+    image: 'assets/img/img_sq_1.jpg',
+    content: `
+      <p style="line-height: 1.8;">AgriBusiness is a vital sector, driven by the ever-growing need for food, resources, and sustainable agricultural practices. As populations expand and the pressure on food supplies increases, agribusiness presents an investment opportunity that is not only lucrative but essential for the future of humanity. Investing in agriculture-related businesses ensures that you are part of an industry critical to global survival. 
+
+      The modern agricultural sector is evolving rapidly, with innovations in AgriTech driving efficiency and productivity across the globe. From precision farming technologies to organic food production, investors can tap into numerous growth areas within the broader agricultural ecosystem. These innovations help reduce waste, enhance productivity, and improve sustainability, making agriculture a forward-looking and resilient investment option.
+
+      Furthermore, agribusiness investments often come with the added advantage of governmental support, as many nations seek to bolster food security and sustainable practices. Whether it's investing in farmland, agri-tech solutions, or large-scale food production, this sector offers a wealth of opportunities, ensuring stable returns while contributing to solving one of the most pressing challenges of our time: feeding the world.</p>
+    `
+  },
+  'technology-ventures': {
+    title: 'Invest in Technology Ventures',
+    image: 'assets/img/technology.jpg',
+    content: `
+      <p style="line-height: 1.8;">Technology ventures offer investors the opportunity to be at the forefront of the next industrial revolution. Whether it’s artificial intelligence, blockchain, or biotechnology, technology is reshaping industries and creating new opportunities for growth. Investing in technology ventures allows you to participate in this transformative sector, which has the potential to disrupt traditional industries while creating new ones. 
+
+      The tech industry is known for its rapid pace of innovation, which presents both incredible opportunities and unique risks. However, for investors who are willing to embrace this volatility, the rewards can be substantial. Technology ventures often start small but scale rapidly, offering exponential returns for early-stage investors. Companies in this sector are constantly breaking new ground, whether it’s through advancements in healthcare, FinTech, or clean energy.
+
+      By investing in technology, you not only gain the potential for high returns but also the chance to shape the future of industries. These investments are about more than just profit—they are about innovation, progress, and creating solutions that will impact generations to come.</p>
+    `
+  },
+  'health-wellbeing': {
+    title: 'Invest in Health & Well Being',
+    image: 'assets/img/nurse.jpg',
+    content: `
+      <p style="line-height: 1.8;">The health and well-being sector is an ever-growing field, with innovations in healthcare, wellness, and biotechnology creating new opportunities for investors. As people place greater emphasis on living healthier and longer lives, the demand for products and services that promote well-being is steadily increasing. From pharmaceuticals and medical devices to wellness retreats and fitness technology, this sector spans a wide range of investment possibilities.
+
+      Healthcare has always been a recession-proof industry, providing stability for investors even during economic downturns. With advancements in telemedicine, personalized medicine, and preventive healthcare, the sector is poised for continued growth. Moreover, the focus on mental health, fitness, and holistic wellness is opening new doors for investment in innovative products and services that address every aspect of well-being.
+
+      By investing in health and well-being, you are contributing to a sector that not only offers consistent financial returns but also improves the quality of life for millions around the world. Whether it’s healthcare infrastructure, biotech research, or wellness-focused startups, this is an investment area that promises both economic and human value.</p>
+    `
+  }
+};
+
+
+
+  // Get the area from the URL
+  const area = getQueryParam('area');
+  
+  // Check if the area exists in our data
+  if (investmentAreas[area]) {
+    document.getElementById('investment-title').textContent = investmentAreas[area].title;
+    document.getElementById('investment-image').src = investmentAreas[area].image;
+    document.getElementById('investment-content').innerHTML = investmentAreas[area].content;
+  } else {
+    // Default content if the area is not recognized
+    document.getElementById('investment-title').textContent = 'Investment Details';
+    document.getElementById('investment-content').innerHTML = '<p>Select an investment area to see more details.</p>';
+  }
+</script>
+</section>
+
+</main>
+
+
+<footer id="footer" class="footer position-relative dark-background">
+
+  <div class="container footer-top">
+    <div class="row gy-4">
+      <div class="col-lg-4 col-md-6">
+        <div class="footer-about">
+          <a href="index.html" class="logo sitename">NDIC</a>
+          <div class="footer-contact pt-3">
+            <p>New Baneshwar</p>
+            <p>Kathmandu,Nepal 66400</p>
+            <p class="mt-3"><strong>Phone:</strong> <span>+9779849779958</span></p>
+            <p><strong>Email:</strong> <span>info@example.com</span></p>
+          </div>
+          <div class="social-links d-flex mt-4">
+            <a href=""><i class="bi bi-twitter-x"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-2 col-md-3 footer-links">
+        <h4>Useful Links</h4>
+        <ul>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/about.html">About us</a></li>
+          <li><a href="/investment.html">Investments</a></li>
+          <li><a href="/portfolio.html">Portfolio</a></li>
+        </ul>
+      </div>
+
+      <div class="col-lg-2 col-md-3 footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="/team.html">Team</a></li>
+          <li><a href="/news&media.html">News&Media</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="col-lg-4 col-md-12 footer-newsletter">
+        <h4>Our Newsletter</h4>
+        <p>Subscribe to our newsletter and receive the latest news about our products and services!</p>
+        <form action="forms/newsletter.php" method="post" class="php-email-form">
+          <div class="newsletter-form"><input type="email" name="email"><input type="submit" value="Subscribe"></div>
+          <div class="loading">Loading</div>
+          <div class="error-message"></div>
+          <div class="sent-message">Your subscription request has been sent. Thank you!</div>
+        </form>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="container copyright text-center mt-4">
+    <p>© <span>Copyright</span> <strong class="px-1 sitename">NDIC</strong> <span>All Rights Reserved</span></p>
+    <div class="credits">
+      <!-- All the links in the footer should remain intact. -->
+      <!-- You can delete the links only if you've purchased the pro version. -->
+      <!-- Licensing information: https://bootstrapmade.com/license/ -->
+      <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+      Designed by <a href="apphimalayan.com">App Himalaya</a>
+    </div>
+  </div>
+
+</footer>
+
+<!-- Scroll Top -->
+<a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+<!-- Preloader -->
+<div id="preloader"></div>
+
+<!-- Vendor JS Files -->
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendor/php-email-form/validate.js"></script>
+<script src="assets/vendor/aos/aos.js"></script>
+<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+<!-- Main JS File -->
+<script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
